@@ -7,4 +7,7 @@ class Person:
         name (str): the person's name.
         connections (set of Person): other people in the social network who know this person.
     """
-    def __init__ (self, name):
+    def connect(self, person2):
+        """
+        Args:
+            person2 (Person): the other person to connect to.
